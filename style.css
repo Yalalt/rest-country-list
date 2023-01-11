@@ -1,0 +1,50 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container-md {
+    max-width: 1900px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.titleTop {
+    text-align: center;
+    margin: 10px auto;
+}
+.headerSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#searchInput {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    text-align: right;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+    text-align: center;
+}
+
+button {
+    padding: 5px 16px;
+}
